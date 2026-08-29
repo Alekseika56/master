@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Refund Procedure</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <main>
+      <header class="top-nav">
+        <div class="nav-actions">
+          <button class="nav-card"><span>📰</span>News</button>
+          <button class="nav-card"><span>🔔</span>Notification</button>
+          <button class="nav-card"><span>📗</span>Knowledge Base</button>
+        </div>
+        <div class="operator-bar"><span class="bag">💼</span><span class="timer">00:04:27</span><span class="avatar tiny">👨🏻</span><span>Alex</span><button class="end-work">End of work</button></div>
+      </header>
+      <div class="workspace">
+        <aside class="queue-rail">
+          <div class="queue-person active"><span class="avatar photo">👩🏻</span><span class="green-time">00:17</span></div>
+          <div class="queue-person"><span class="badge">3</span><span class="avatar photo">👨🏻</span><span class="yellow-time">02:38</span></div>
+        </aside>
+        <section class="chat-panel panel">
+          <button class="close-chat">×</button>
+          <div class="chat-head"><h2>Drozhina Ksenia Nikolaevna</h2><button>9:04 Bank Web Version⌄</button></div>
+          <div class="date-divider">September 10</div>
+          <div class="message incoming">Hello. Please help me get a refund for the ‘Transaction Alerts’ service. I didn’t know it was enabled</div><span class="message-time left">9:03</span>
+          <span class="me-label">Me</span><div class="message outgoing">Hello, Ksenia. I’ll try to help you get a refund</div><span class="message-time right">9:04 ✓✓</span><p class="handling">Aleksei is handling your issue</p>
+          <div class="chat-compose"><button class="hold">Hold the chat</button><div class="input-row"><span class="muted">📎</span><div class="message-input" id="composeText">Enter a message</div><span></span><span class="send">➤</span></div></div>
+        </section>
+        <section class="procedure-panel panel">
+          <h1>Drozhina Ksenia Nikolaevna</h1><p class="profile-meta">F, 28 years</p>
+          <div class="search-box"><span>⌕</span><span>Refund</span><button>×</button></div>
+          <div class="tabs"><button>Products</button><button>Events</button><button class="active-tab">Refund ×</button></div>
+          <div class="step-eyebrow" id="eyebrow">Refund request</div><h2 id="stepTitle">Choose refund reason</h2>
+          <div class="soft-card helper"><span id="helperText">Select the service for which you want to receive a refund</span><span>ⓘ</span></div>
+          <div id="procedureContent"></div>
+          <div class="procedure-actions"><button class="back" id="backBtn">Back</button><button class="next" id="nextBtn">Next</button></div>
+        </section>
+      </div>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
